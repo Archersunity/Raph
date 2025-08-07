@@ -1,0 +1,150 @@
+00:00.000 --> 00:01.190
+What is the map method?
+
+00:01.190 --> 00:02.310
+And how does it work?
+
+00:02.770 --> 00:05.205
+The map method is a powerful
+
+00:05.205 --> 00:07.870
+and widely used function in JavaScript
+
+00:08.307 --> 00:10.550
+that operates on arrays.
+
+00:11.000 --> 00:13.800
+It is designed to create a new array
+
+00:14.100 --> 00:15.800
+by applying a given function
+
+00:16.000 --> 00:18.590
+...to each element of the original array.
+
+00:19.200 --> 00:21.800
+This method does not modify the original array,...
+
+
+00:00:22.150 --> 00:00:24.408
+...but instead returns a new array.
+
+00:00:24.408 --> 00:00:26.850
+...containing the results of the function...
+
+00:00:26.850 --> 00:00:28.576
+...applied to each element.
+
+00:00:29.400 --> 00:00:31.730
+Here's an example of using the map method...
+
+00:00:31.850 --> 00:00:33.500
+...on an array of numbers...
+
+00:00:33.900 --> 00:00:34.790
+...to create a new array...
+
+00:00:34.790 --> 00:00:36.500
+...where each number is doubled.
+
+00:00:36.500 --> 00:00:38.750
+We are using the map method.
+
+00:00:38.750 --> 00:00:41.550
+The map method accepts a callback function...
+
+00:00:41.600 --> 00:00:43.900
+...where the function is called on...
+
+00:00:43.900 --> 00:00:46.550
+...every single element in the array.
+
+00:00:47.000 --> 00:00:47.700
+In this case...
+
+00:00:47.900 --> 00:00:49.700
+...each number in the array...
+
+00:00:49.700 --> 00:00:51.450
+...will be multiplied by two.
+
+00:00:51.450 --> 00:00:52.450
+The result will be...
+
+00:00:52.450 --> 00:00:54.000
+...a new array of the numbers...
+
+00:00:54.000 --> 00:00:55.540
+...2, 4, 6, 8, 10.
+
+00:00:56.000 --> 00:00:58.390
+The callback function can accept...
+
+00:00:58.390 --> 00:00:59.250
+...up to three...
+
+00:00:59.250 --> 01:00:00.900
+...arguments.
+
+01:00:00.900 --> 01:01:01.800
+The first argument...
+
+01:01:01.800 --> 01:03:03.500
+...is the current element...
+
+01:03:03.500 --> 01:05:05.870
+...being processed.
+
+01:05:05.870 --> 01:07:07.050
+The second argument...
+
+01:07:07.050 --> 01:08:08.290
+...is the index.
+
+00:01:08.290 --> 00:01:10.050
+...of the current element being processed.
+
+00:01:11.300 --> 00:01:12.000
+The third argument...
+
+00:01:13.430 --> 00:01:14.630
+...is the array...
+
+00:01:14.630 --> 00:01:16.800
+...where map is being called on.
+
+00:01:17.670 --> 00:01:18.680
+Understanding...
+
+00:01:18.680 --> 00:01:21.400
+...and effectively using the map method can...
+
+00:01:21.400 --> 00:01:23.750
+...significantly improve your ability...
+
+00:01:23.750 --> 00:01:26.600
+...to work with arrays in JavaScript.
+
+00:01:26.600 --> 00:01:28.350
+In future lecture videos...
+
+00:01:28.350 --> 00:01:29.850
+...we'll dive deeper into...
+
+00:01:29.850 --> 00:01:32.350
+...more advanced uses of map...
+
+00:01:32.350 --> 00:01:33.100
+...and explore...
+
+00:01:33.100 --> 00:01:34.640
+...how it can be a powerful tool...
+
+00:01:34.640 --> 00:01:35.700
+...for building...
+
+00:01:35.700 --> 00:01:36.750
+...dynamic...
+
+00:01:36.750 --> 00:01:38.500
+...and efficient programs.
